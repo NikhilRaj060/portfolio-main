@@ -64,17 +64,6 @@ const Navbar = () => {
                 </span>
               </Link>
             </li>
-            <li className={linkStyle}>
-              <Link
-                href="https://blog-tech-delta.vercel.app/users/lakshaybabbar0118"
-                target="_blank"
-              >
-                <span className={linkSpan}>
-                  <PiPenNibStraight />
-                  Blog
-                </span>
-              </Link>
-            </li>
           </ul>
         </div>
         <Socials hidden={true} />

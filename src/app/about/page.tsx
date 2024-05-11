@@ -84,7 +84,17 @@ const About = () => {
           </h2>
           <div className="grid md:grid-cols-2 2xl:grid-cols-3 gap-5">
             {skillData.map((item) => {
-              return <SkillCard key={item.title} data={item} />;
+              // Filter out undefined values from the skills array and convert them to strings
+              const filteredSkills = item.skills.filter(
+                (skill) => typeof skill === "string"
+              ) as string[];
+
+              return (
+                <SkillCard
+                  key={item.title}
+                  data={{ ...item, skills: filteredSkills }}
+                />
+              );
             })}
           </div>
         </div>
