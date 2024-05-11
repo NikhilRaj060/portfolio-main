@@ -37,7 +37,7 @@ export default function Home() {
         </h1>
         <p className="mt-10 font-normal text-base md:text-xl text-neutral-400 max-w-72 md:max-w-3xl text-center mx-auto">
           Innovative and dedicated Software Engineer with a strong focus on
-          frontend development. Leveraging a Bachelor's degree in Computer
+          frontend development. Leveraging a Bachelor&apos;s degree in Computer
           Science from Sambhram Institute of Technology, Bangalore (VTU) in
           2023, I bring a blend of technical expertise and creative
           problem-solving skills to every project. Currently contributing to the
