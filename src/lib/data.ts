@@ -1,5 +1,15 @@
 export const projectData = [
   {
+    title: "Pro Manage",
+    alt: "Pro Manage Image",
+    skills: "React Js, Express js, Node js , MongoDB",
+    description: "This is a full stack application like jira to manage the task and analytics of task. As admin after login we can create task , assign the user which is added in the board and share the link with anyone they can see the progress of task using that link. Creation of task is only available to authorised user only.",
+    img: "/projects/promanage.png",
+    link: "https://pro-manage-g07c.onrender.com",
+    repo: "https://github.com/NikhilRaj060/Pro-Manage",
+    id: 0,
+  },
+  {
     title: "Quizzie",
     alt: "Quizzie Image",
     skills: "React Js, Express js, Node js , MongoDB",
@@ -7,7 +17,7 @@ export const projectData = [
     img: "/projects/quizzie.png",
     link: "https://quizzie-9k6u.onrender.com",
     repo: "https://github.com/NikhilRaj060/Quizzie",
-    id: 0,
+    id: 1,
   },
   {
     title: "Sait Feedback",
@@ -17,7 +27,7 @@ export const projectData = [
     img: "/projects/sait-feedback.png",
     link: "https://saitfeedback.netlify.app",
     repo: "https://github.com/NikhilRaj060/College-Feedback-System",
-    id: 1,
+    id: 2,
   },
   {
     title: "Quora Clone App",
@@ -27,7 +37,7 @@ export const projectData = [
     img: "/projects/quora-clone.png",
     link: "https://nikhilraj060.github.io/quora-clone/",
     repo: "https://github.com/NikhilRaj060/quora-clone",
-    id: 2,
+    id: 3,
   },
   {
     title: "Rock Paper Scissor Game",
@@ -37,7 +47,7 @@ export const projectData = [
     img: "/projects/rockpaperscessior.png",
     link: "https://cuvette-rock-paper-scissor-game.netlify.app",
     repo: "https://github.com/NikhilRaj060/Rock-Paper-Scissor",
-    id: 3,
+    id: 4,
   },
   {
     title: "Pocket Notes App",
@@ -47,7 +57,7 @@ export const projectData = [
     img: "/projects/pocket_notes.avif",
     link: "https://pocketfriendly-notes.netlify.app",
     repo: "https://github.com/NikhilRaj060/Pocket-Notes",
-    id: 4,
+    id: 5,
   },
   {
     title: "Daprr Landing Page",
@@ -57,7 +67,7 @@ export const projectData = [
     img: "/projects/dappr-landing-page.png",
     link: "https://daprr-landing-cuvette.netlify.app",
     repo: "https://github.com/NikhilRaj060/Dappr_Landing_Page",
-    id: 5,
+    id: 6,
   },
 ];
 
